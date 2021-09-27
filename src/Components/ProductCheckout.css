@@ -1,0 +1,32 @@
+.productCheckout {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+.productCheckout_list {
+  display: flex;
+  justify-content: flex-start;
+}
+.productCheckout_listinfo {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.productCheckout_list > img {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.productCheckout_rating {
+  display: flex;
+  flex-direction: row;
+}
+.productCheckout_listinfo > button {
+  background-color: red;
+  color: white;
+}
+.productCheckout_listinfo > button:hover {
+  background-color: white;
+  color: red;
+}

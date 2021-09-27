@@ -1,0 +1,33 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 2;
+  border: 2px transparent gray;
+  background-color: white;
+  margin: 10px;
+}
+.product_info {
+  display: flex;
+  flex-direction: column;
+}
+.product_info > img {
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.product_price_rating {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.product_rating {
+  display: flex;
+  flex: row;
+}
+.product_addtocart {
+  background-color: red !important;
+  color: white !important;
+}
